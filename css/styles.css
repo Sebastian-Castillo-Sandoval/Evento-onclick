@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(190, 185, 185);
+    padding: 10px 20px;
+    margin: 0 40px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 0 30px;
+    box-shadow: 3px 3px 5px 0px black;
+}
+.buscador{
+    border: 2px solid black;
+    color:rgb(175, 162, 162);
+    
+}
+.contenido{
+    display: flex; 
+    flex-direction: row;   
+}
+
+.definicion{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px 40px;
+    padding: 20px;
+    align-items: center;
+}
+
+.contenido-iquierdo{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    
+}
+
+.agregar-definicion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px 40px; 
+    padding: 20px;
+    height: 80px;
+}
+.btn-likes{
+    background-color: rgba(218, 231, 26, 0.795);
+    color: black;
+    padding: 0 30px;
+    box-shadow: 3px 3px 5px 0px black;
+    margin-top: 10px;
+}
+.btn-agregar-definicion{
+    background-color: rgba(21, 180, 42, 0.795);
+    color: black;
+    padding: 0 30px;
+    box-shadow: 3px 3px 5px 0px black;
+    margin-top: 10px;
+}
+.palabra{
+    margin: 20px;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Evento onclick</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="navegacion">
+            <h1 class="titulo">Dojonary</h1>
+            <div><input class="buscador" type="text" name="buscador" value="Search"></div>
+            <div><button onclick="cambiarEstado(this)" class= "btn" type="submit" id="login">Login</button></div>
+        </div>
+        <main>
+            <div class="contenido">
+                <div class="contenido-iquierdo">
+                    <div class="definicion">
+                        <div class="palabra">
+                            <h2>ninja</h2>
+                            <h3><em>noun</em></h3>
+                            <h3>Plural: <em>ninjas</em></h3>
+                            <div><button onclick="mensaje(this)" class= "btn-likes" type="submit" id="like">13 likes</button></div>
+                        </div>
+                            <p>A practitioner skilled in the <a href="#">Japanese</a> 
+                            art of <a href="#">ninjutsu</a></p>
+
+                    </div>
+                    <div class="definicion">
+                        <div class="palabra">
+                            <h2>ninja</h2>
+                            <h3><em>noun</em></h3>
+                            <h3>Plural: <em>ninjas</em></h3>
+                            <div><button onclick="mensaje(this)" class= "btn-likes" type="submit" id="like1">37 likes</button></div>
+                        </div>
+                            <p>A <a href="#">programmer</a> who breaks down problems 
+                               with <a href="#">zen</a>-like focus</p>  
+                    </div>
+                </div>
+                <div class="contenido-derecho">
+                    <div class="agregar-definicion">
+                        <h2>Dojonary is defined by YOU</h2>
+                        <div><button onclick="removerBoton(this)" class= "btn-agregar-definicion" type="submit" id="agregar-definicion">Add Definition</button></div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
